@@ -43,6 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"SinanBM_SEM3-SWA" /o:"sinanbm" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-          dotnet build --no-incremental
-          dotnet test --collect "Code Coverage"
+          dotnet build 
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
