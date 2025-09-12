@@ -28,3 +28,5 @@
 
 // in Hello class:
 //     string name = Write.Wname;
+
+// just a useless comment, delete whenever u want
