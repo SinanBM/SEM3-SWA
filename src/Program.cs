@@ -27,5 +27,5 @@
 //     public static string WName = ""
 
 // in Hello class:
-//     string name = Write.Wname
+//     string name =  Write.Wname
 
