@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ucHq/DEWPM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\src\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.13\\microsoft.netcore.app.host.win-x64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
