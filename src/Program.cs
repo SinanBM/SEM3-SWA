@@ -9,8 +9,8 @@
         {
 
             // create instance of Write Class and name it writer
-            // formula:
-            // class instance name = new ClassName();
+            // formula is klas naem space instance name equals to new Klasnameparanthesis and semikolon
+
             Write writer = new Write();
 
             // run method AskName to promt user and get WName
@@ -24,9 +24,8 @@
 
 // accessing WName without creating an instance of Write class in the same namespace
 // in Write class:
-//     public static string WName = "";
+//     public static string WName = ""
 
 // in Hello class:
-//     string name = Write.Wname;
+//     string name = Write.Wname
 
-// just a useless comment, delete whenever u want
