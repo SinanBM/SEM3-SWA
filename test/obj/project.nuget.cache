@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nkjKNlwRsJI=",
+  "dgSpecHash": "bQhOYgO/hJs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\test\\test.csproj",
+  "projectFilePath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\test\\test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
@@ -20,7 +20,10 @@
     "C:\\Users\\Sinan\\.nuget\\packages\\mstest.testframework\\3.6.4\\mstest.testframework.3.6.4.nupkg.sha512",
     "C:\\Users\\Sinan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Sinan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "C:\\Users\\Sinan\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\Sinan\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
   ],
   "logs": []
 }

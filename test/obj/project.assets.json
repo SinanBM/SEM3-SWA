@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "Microsoft.ApplicationInsights/2.22.0": {
         "type": "package",
         "dependencies": {
@@ -687,7 +687,7 @@
       },
       "HelloWorld/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/HelloWorld.dll": {}
         },
@@ -1661,7 +1661,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
       "HelloWorld >= 1.0.0",
       "MSTest >= 3.6.4",
       "Microsoft.NET.Test.Sdk >= 17.12.0"
@@ -1673,27 +1673,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\test\\test.csproj",
+      "projectUniqueName": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\test\\test.csproj",
       "projectName": "test",
-      "projectPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\test\\test.csproj",
+      "projectPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\test\\test.csproj",
       "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\test\\obj\\",
+      "outputPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\src\\HelloWorld.csproj": {
-              "projectPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\HelloWorld\\src\\HelloWorld.csproj"
+            "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\src\\HelloWorld.csproj": {
+              "projectPath": "C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3. SEMESTER\\SOFTWARE ARCHITECTURE\\GH repos\\SEM3-SWA\\src\\HelloWorld.csproj"
             }
           }
         }
@@ -1711,8 +1711,8 @@
       "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "MSTest": {
             "target": "Package",
@@ -1734,6 +1734,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
