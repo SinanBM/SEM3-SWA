@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld
 {
-    class Hello
+    public class Hello
     {
 
         // main method with parameter called args which is type of string 

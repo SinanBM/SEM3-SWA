@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace HelloWorld
 {
     // a class to ask users' name and store it in variable WName
@@ -26,7 +28,6 @@ namespace HelloWorld
 
             // Capitalize first letter, lowercase the rest
             name = char.ToUpper(name[0]) + name.Substring(1).ToLower();
-            
         }
     }
 }
