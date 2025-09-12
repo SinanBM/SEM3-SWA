@@ -8,7 +8,7 @@ namespace AnotherNamespace
     /// </summary>
     public class AnotherClass
     {
-
+        private string name = "";
         private bool _aliveVar = true;
         /// <summary>
         /// <para>Author: skqu </para>
@@ -23,6 +23,7 @@ namespace AnotherNamespace
             if (_aliveVar)
             {
                 _aliveVar = false;
+
             }
             else
             {
@@ -34,6 +35,19 @@ namespace AnotherNamespace
         public void changeAlive(bool alive)
         {
             _aliveVar = alive;
+        }
+
+        public string Name()
+        {
+            if (_aliveVar)
+            {
+                name = "dead!";
+            }
+            else
+            {
+                name = "alive!";
+            }
+            return name;
         }
     }
 }
