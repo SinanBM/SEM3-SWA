@@ -173,3 +173,4 @@ C:\Users\Sinan\Desktop\IT ARKITEKTUR\3. SEMESTER\SOFTWARE ARCHITECTURE\GH repos\
 C:\Users\Sinan\Desktop\IT ARKITEKTUR\3. SEMESTER\SOFTWARE ARCHITECTURE\GH repos\SEM3-SWA\test\obj\Debug\net8.0\test.pdb
 C:\Users\Sinan\Desktop\IT ARKITEKTUR\3. SEMESTER\SOFTWARE ARCHITECTURE\GH repos\SEM3-SWA\test\obj\Debug\net8.0\test.genruntimeconfig.cache
 C:\Users\Sinan\Desktop\IT ARKITEKTUR\3. SEMESTER\SOFTWARE ARCHITECTURE\GH repos\SEM3-SWA\test\obj\Debug\net8.0\ref\test.dll
+C:\Users\Sinan\Desktop\IT ARKITEKTUR\3. SEMESTER\SOFTWARE ARCHITECTURE\GH repos\SEM3-SWA\test\bin\Debug\net8.0\CoverletSourceRootsMapping_test
