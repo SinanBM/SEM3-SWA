@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../src/HelloWorld.csproj"/>
+    <PackageReference Include="coverlet.collector" Version="6.*" />
   </ItemGroup>
 
 </Project>

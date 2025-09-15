@@ -1,8 +1,6 @@
 ﻿﻿using AnotherNamespace;
 namespace test;
 
-
-
 [TestClass]
 public sealed class Test1
 {
