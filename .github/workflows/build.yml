@@ -49,10 +49,11 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"SinanBM_SEM3-SWA" /o:"sinanbm" /d:sonar.token=$env:SONAR_TOKEN /d:sonar.cs.cobertura.reportsPaths="TestResults/coverage.relative.xml"
           dotnet build --no-incremental
           dotnet test --collect:"XPlat Code Coverage" --results-directory TestResults
-          #  Find the cobertura.xml (timestamped folder) and rewrite the paths
+          
           $coverageXml = Get-ChildItem TestResults/**/coverage.cobertura.xml | Select-Object -First 1
+
           (Get-Content $coverageXml.FullName) `
-            -replace 'C:\\Users\\Sinan\\Desktop\\IT ARKITEKTUR\\3\\. SEMESTER\\SOFTWARE ARCHITEKTURE\\GH repos\\SEM3-SWA\\src\\', 'src\\' `
+            -replace '.*/src/', 'src\' `
             | Set-Content TestResults/coverage.relative.xml
 
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token=$env:SONAR_TOKEN
