@@ -50,3 +50,4 @@ jobs:
           dotnet build --no-incremental
           dotnet test --collect:"XPlat Code Coverage" --results-directory TestResults
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
